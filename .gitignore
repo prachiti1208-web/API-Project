@@ -1,0 +1,54 @@
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Virtual environment
+myenv/
+venv/
+env/
+.venv/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Large datasets
+dataset/
+*.pdf
+*.png
+*.jpg
+*.jpeg
+
+# YOLO training outputs / model weights
+runs/
+*.pt
+*.pth
+*.onnx
+
+# Generated OCR / evaluation outputs
+evaluation_report.json
+final_demo_results/
+output/
+outputs/
+
+# Temporary files
+*.tmp
+*.log
+
+# IDE
+.vscode/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Hugging Face / model cache
+.cache/
+
+# Experimental / debugging scripts
+scripts/handwritten_line_test.py
+scripts/match_yolo_with_annotations.py
+scripts/recover_yolo.py
+scripts/refine_short_answers.py
+scripts/train_ocr.py
